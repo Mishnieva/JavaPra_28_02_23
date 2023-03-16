@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Main {
     public static void main(String[] args) {
 
-        double[] array = {new Square(2, 5).area(), new Сircle(2).area(), new Triangle (6,3).area()};
+        double[] array = {new Square(5, 2).area(), new Сircle(2).area(), new Triangle (6,3).area()};
 
         double sum = 0;
         for (double arrays : array) {

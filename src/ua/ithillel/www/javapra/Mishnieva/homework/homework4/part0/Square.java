@@ -2,25 +2,25 @@ package ua.ithillel.www.javapra.Mishnieva.homework.homework4.part0;
 
 public class Square  implements Area {
 
-    private int a;
-    private int b;
+    private int length;
+    private int width;
 
-    public int getA() {
-        return a;
+    public int getLength() {
+        return length;
     }
 
-    public int getB() {
-        return b;
+    public int getWidth() {
+        return width;
     }
 
-    public Square(int a, int b) {
-        this.a = a;
-        this.b = b;
+    public Square(int length, int width) {
+        this.length = length;
+        this.width = width;
     }
 
     @Override
     public double area() {
-        double areaSquare = a * b;
+        double areaSquare = length * width;
         System.out.println("The area of the square is equal " + areaSquare + " centimeters");
         return areaSquare;
     }
