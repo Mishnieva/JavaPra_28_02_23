@@ -1,4 +1,4 @@
-package ua.ithillel.www.javapra.Mishnieva.homework.omework4.part1;
+package ua.ithillel.www.javapra.Mishnieva.homework.homework4.part1;
 
 public class Human extends Participant {
 

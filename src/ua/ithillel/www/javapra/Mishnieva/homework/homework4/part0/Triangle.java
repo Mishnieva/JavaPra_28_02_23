@@ -1,4 +1,4 @@
-package ua.ithillel.www.javapra.Mishnieva.homework.omework4.part0;
+package ua.ithillel.www.javapra.Mishnieva.homework.homework4.part0;
 
 public class Triangle implements Area {
     private int a;
