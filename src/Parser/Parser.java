@@ -8,7 +8,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Parser {
-
     public List <String> readAll (String name) throws IOException {
         List <String> words;
 

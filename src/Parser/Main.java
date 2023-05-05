@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     private static final String PATH = "src/parser/";
-
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
         Parser parcer = new Parser();
